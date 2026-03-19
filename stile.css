@@ -1,0 +1,69 @@
+body{
+    background-color: bisque;
+    padding: 0px 0;
+}
+header{
+    background-image: url("https://image.freepik.com/foto-gratuito/alberi-alti-della-foresta-di-bambu-cina_1101-1282.jpg");
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+    overflow: hidden;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav{
+    background-color: chocolate;
+    padding: 16px 20px;
+}
+nav a{
+    color: white;
+    background-color: chocolate;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+nav a:hover{
+    background-color: white;
+    color: black;
+}
+h2{
+    text-align: center;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    align-items: center;
+    
+}
+img:hover{
+    max-width: 100%;
+    padding: 10px 0;
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+h3{
+    color: white;
+    background-color: chocolate;
+    text-align: center;
+    font-size: large;
+    padding-bottom: 40px 40px
+}
+h1{
+    text-align: center;
+    background-color: chocolate;
+    color: white;
+}
+img{
+    border-radius: 1rem;
+}
+.contenitore{
+    display: flex;
+}
+@media(max-width:760px){
+    .contenitore{
+        flex-direction: column;
+    }
+    body{
+        font-size: 10px;
+    }
+}
